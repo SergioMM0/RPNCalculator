@@ -7,7 +7,6 @@ class Calculator {
   List<num> numbers = [];
   List<num> lastOperation = [];
   operationType lastOperationType = operationType.SUM;
-  var lol;
 
   void operate(operationType type) {
     switch (type) {
